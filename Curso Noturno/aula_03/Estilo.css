@@ -1,0 +1,63 @@
+body{
+
+    background-color: black;
+}
+
+h1{
+
+    font-family: Helvetica;
+    color: darkviolet;
+    text-align: center;
+}
+
+h2{
+
+    font-family: Helvetica;
+    text-align: center;
+    color: darkviolet;
+}
+
+h4{
+
+    font-family: cursive;
+    color: rgba(225, 192, 255, 0.756);
+    text-align: center;
+}
+
+hr{
+
+    color: black;
+    height: 3px;
+    background-color: rgb(54, 15, 90);
+    border: 0cm;
+}
+
+p{
+
+    font-family: cursive;
+    color: rgba(225, 192, 255, 0.756);
+}
+
+ul{
+
+    font-family: cursive;
+    color: rgba(225, 192, 255, 0.756);
+}
+
+a{
+
+    color: white;
+}
+
+#BS{
+
+    color: black;
+    height: 1px;
+    background-color: rgb(54, 15, 90);
+    border: 0cm;
+}
+
+#Titulo{
+
+    color: rgb(159, 88, 217);
+}

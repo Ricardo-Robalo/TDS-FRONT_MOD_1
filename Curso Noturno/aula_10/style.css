@@ -1,0 +1,53 @@
+body{
+
+    background-color: darkgray;
+}
+
+.titulo{
+
+    text-align: center;
+    color: rgb(0, 63, 63);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tabuleiro{
+
+    display: flex;
+    justify-content: center; 
+}
+
+.campo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: darkcyan;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.campo p{
+
+    color: azure;
+}
+
+.rodape{
+
+    color: rgb(0, 63, 63);
+    text-align: center;
+}
+
+.rodape button{
+
+    color: rgb(0, 63, 63);
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    margin: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}

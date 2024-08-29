@@ -1,0 +1,12 @@
+body{
+
+    background-color: rgb(57, 57, 57);
+}
+
+*{
+    text-align: center;
+}
+
+ul{
+  list-style: none;
+}

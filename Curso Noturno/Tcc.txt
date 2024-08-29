@@ -1,0 +1,43 @@
+=-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==
+=-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==
+=-==-==-=																Tcc																			=-==-==-
+=-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==
+=-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==
+
+			_-=Problema=-_
+A dificuldade dos alunos de se organizar academicamente pelo excesso de trabalhos escolares e/ou rotina pesada.
+
+		_-=Ideia (Solução)=-_
+Um app onde os alunos possam ver as datas das atividades e a grade curricular
+
+		_-=Funcionamento=-_
+
+Usuários:
+Vão ter 3 tipos de usuários: Admin, Professor e Aluno
+
+Admin - Cria as salas e cria os perfis dos professores, além de poder alterar e/ou visualizar o horário de aulas
+Professor - Tem acesso a todas as salas, e pode colocar na grade sua matéria e repetir para as seguintes semanas, além de poder adicionar as aulas as atividades, trabalhos e provas
+Alunos - Podem apenas visualizar a grade e as atividades
+
+_-=-_ _-=-_ _-=-_ _-=-_ _-=-_
+
+Funcionalidade:
+O app terá as diversas salas criadas pelo admin, cada sala terá um ID de 4 dígitos, tanto para os Alunos quanto para os Professores poderem entrar nas salas.
+
+O interior do app será como uma agenda, terá as semanas onde o professor pode entrar no dia em especifico (Por exemplo Segunda) e adicionar qual matéria vai ser naquele horário (Por exemplo, história), com isso, todos os Professores e Admins podem fazer estas atualizações, ainda como uma ação que os professores podem fazer é adicionar tarefas e classifica-las.
+Por exemplo: A professora de história passou uma pesquisa para fazer em casa, e que deve ser entregue na próxima semana, esta professora vai no dia da entrega e cria uma tarefa, da classe trabalho, com o nome da pesquisa, esta tarefa ficara visível para os alunos em casa, garantindo que poucos esqueçam da pesquisa. Isso auxiliaria na organização do aluno e na fluidez da disciplina.
+
+Para os alunos, eles poderão ver o horário escolar, além de ver todas as atividades passadas pelos professores, ainda por cima, será possível colocar alarmes, lembrando-os de casa tarefa.
+
+_-=-_ _-=-_ _-=-_ _-=-_ _-=-_
+
+Paleta:
+Degrade que envolva Azul escuro e Roxo:
+
+ #D95F59, #8C3061,#522258,  #433D8B, #2E236C, #17153B
+
+		_-=O que fazer=-_
+
+Forms: Sobre a organização dos alunos em relação as diversas atividades, o quanto eles gostariam de um app para auxiliar nisso, e quais recursos eles gostariam de ver neste app
+
+Pesquisar os concorrentes: Ava, Escola Paraná

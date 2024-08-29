@@ -1,0 +1,151 @@
+.gradiente{
+
+    background: linear-gradient(45deg, #071952, #088395, #37B7C3,#EBF4F6);
+    animation: cor 10s ease infinite;
+    background-size: 300% 300%;
+}
+
+@keyframes cor{
+
+    0%{
+
+        background-position: 0% 50%;
+    }
+
+    50%{
+
+        background-position: 100% 50%;
+    }
+
+    100%{
+
+        background-position: 0% 50%;
+    }
+}
+
+h3{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+
+    text-decoration: none;
+}
+
+.q1{
+
+    display: flex;
+}
+
+.foto{
+
+    background-image: url("./Foto_de_Perfil_pra_tudo.jpg");
+    background-size: cover;
+    height: 30  0px;
+    width: 300px;
+    border-radius: 30px;
+    margin: 12px 12px 12px 22px;
+}
+
+/* Margin: Encima, Esquerda, Embaixo, Direita */
+.descricao{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 12px 12px 12px 30px;
+}
+
+.descricao p{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    color: rgb(29, 29, 29);
+}
+
+.q2{
+
+    display: flex;
+    justify-content: center;
+}
+
+.q2_detalhe{
+
+    /* Define tamanho dos blocos */
+    height: 250px;
+    width: 400px;
+
+    /* Define a distância dos blocos */
+    margin: 40px 10px 10px 10px;
+
+    /* Ajusta o alinhamento dos itens nos blocos */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.q2_detalhe button{
+
+    /* Configurações da borda */
+    border-radius: 10px;
+    border: none;
+
+    /* Configuração do texto */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    color: rgb(29, 29, 29);
+
+    /* Configurações do tamanho */
+    height: 70px;
+    width: 300px;
+    margin: 10px 10px 5px 10px;
+
+    /* Configuração da posição */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Configuração do mouse */
+    cursor: pointer;
+}
+
+.q2_detalhe img{
+
+    height: 60px;
+    width: 60px;
+}
+
+#insta{
+
+    background: linear-gradient(90deg, #fbab0a, #fc4c16,#fc0b5b, #fc047f, #e905cc);
+    color: rgb(222, 222, 222);
+}
+
+
+#git{
+
+    background-color: #232323;
+    color: #c9c9c9;
+}
+
+#musga{
+
+    background: linear-gradient(65deg, #fc0404, #fc3c3c, #fc0404);
+    color: #fcc4c4;
+    
+}
+
+#roblox{
+
+    background: linear-gradient(60deg, #22252b, #3f4956, #7f92a0);
+    color: #ced5de;
+}
+
+#pokemon{
+
+    background: linear-gradient(30deg, #efc204, #275df3);
+    color: #ced5de;
+}

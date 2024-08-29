@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>aula_o6</title>
+
+</head>
+
+<body>
+
+    <p>Aula Javascript</p>
+
+    <input type="text" name="" id="">
+
+    <button>Salvar</button>
+
+    <ul>
+        <li>item</li>
+    </ul>
+
+    <script>
+
+        var nome = "Guilherme";
+
+        var calculo = 1 + 2.5;
+
+        var lista = [1, 2, 3, 4, 5];
+
+        var matriz = [[1], [1]]
+
+        var guilherme = {
+
+            nome: "Guilherme",
+            idade: 26
+        };
+
+        var pessoas = [
+
+            {
+                nome: "Gabrielle",
+                idade: 24,
+                email: "gabi@gmil.com"
+            },
+            {
+                nome: "Ricardo",
+                idade: 73,
+                email: "ricardo@gmil.com"
+            },
+            {
+                nome: "Diego",
+                idade: 24,
+                email: "diego@gmil.com"
+            },
+            {
+                nome: "Leonardo",
+                idade: 25,
+                email: "leonardo@gmil.com"
+            },
+            {
+                nome: "Thiago",
+                idade: 29,
+                email: "thiago@gmil.com"
+            },
+            {
+                nome: "Guilherme Isotton",
+                idade: 16,
+                email: "guilherme.isotton@gmil.com"
+            },
+            {
+                nome: "Bruno",
+                idade: 17,
+                email: "bruno@gmil.com"
+            },
+            {
+                nome: "Thiago Mazaroli",
+                idade: 13,
+                email: "thiago.mazaroli@gmil.com"
+            },
+            {
+                nome: "Pedro",
+                idade: 12,
+                email: "pedro@gmil.com"
+            }
+        ];
+
+        for (var cont = 0; cont < pessoas.length; cont++) {
+
+            if (pessoas[cont].email == undefined) {
+
+                console.log(`O ${pessoas[cont].nome} não tem e-mail configurado!`);
+
+            } else {
+                
+                console.log(pessoas[cont].email)
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

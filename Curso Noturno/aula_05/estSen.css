@@ -1,0 +1,57 @@
+body{
+
+    background-color:rgb(123, 123, 123);
+}
+
+#login{
+
+    display: flex;
+    align-items: center;
+    margin-left: 65px;
+    height: 90vh;
+    font-family: cursive;
+}
+
+#textinhu{
+
+    color: rgb(123, 123, 123);
+}
+
+#conf{
+
+    background-color: rgb(123, 123, 123);
+    color: rgb(45, 45, 45);
+    border: 2px rgb(45, 45, 45);
+}
+
+.logo{
+
+    padding-bottom: 10px;
+    color: azure;
+}
+
+.logo img{
+
+    height: 100px;
+}
+
+.pri{
+
+    align-items: center;
+    background-color: rgb(45, 45, 45);
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.bot{
+
+    color: rgb(123, 123, 123);
+}
+
+.bot input{
+
+    background-color: transparent;
+    border-top: 1px rgb(123, 123, 123);
+    border-left: none;
+    border-right: none;
+}

@@ -1,0 +1,41 @@
+	=-= Atividade das 10 Tags =-=
+
+Tag 1: <p>
+Tipo: Tags de Texto HTML
+O que é: Parágrafo
+
+Tag 2: <h1> - <h6>
+Tipos: Tags de Texto HTML
+O que é: Tamanhos dos textos
+
+Tag 3: <b> | <i> | <u>
+Tipo: Tags de Texto HTML
+O que é: Texto em negrito | Texto em italico | Texto sublinhado
+
+Tag 4: <img>
+Tipo: Tags de imagem e objeto HTML
+O que é: Imagem
+
+Tag 5: <a>
+Tipo: Tags de link HTML
+O que é: Tag âncora para um link
+
+Tag 6: <base> 
+Tipo: Tags de link HTML
+O que é: URL base para todas as URLs relativas no documento
+
+Tag 7: <param>
+Tipo: Tags de imagem e objeto HTML
+O que é: Parâmetro para um elemento <Object>
+
+Tag 8: <object>
+Tipo: Tags de imagem e objeto HTML
+O que é: Incorporar um objeto
+
+Tag 9: <ul> | <ol>
+Tipo: Tags de lista HTML | Tags de lista HTML
+O que é: Lista não ordenada | Lista ordenada
+
+Tag 10: <li>
+Tipo: Tags de lista HTML
+O que é: Lista

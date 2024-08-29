@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-pnf" href="./icone.png">
+    <script src="./script.js"></script>
+
+    <title>Jogo das Senhoras</title>
+
+</head>
+
+<body>
+
+    <div class="titulo">
+        <h1>Jogo da Velha</h1>
+    </div>
+
+    <div class="corpo">
+
+        <div class="tabuleiro">
+
+            <div class="campo" onclick="marcar(0)"></div>
+            <div class="campo" onclick="marcar(1)"></div>
+            <div class="campo" onclick="marcar(2)"></div>
+
+        </div>
+
+        <div class="tabuleiro">
+
+            <div class="campo" onclick="marcar(3)"></div>
+            <div class="campo" onclick="marcar(4)"></div>
+            <div class="campo" onclick="marcar(5)"></div>
+
+        </div>
+
+        <div class="tabuleiro">
+
+            <div class="campo" onclick="marcar(6)"></div>
+            <div class="campo" onclick="marcar(7)"></div>
+            <div class="campo" onclick="marcar(8)"></div>
+
+        </div>
+
+    </div>
+
+    <div class="rodape">
+
+        <button onclick="reniciar_jogo()">Reniciar</button>
+        <h2 id="resultado"></h2>
+        <h3 id="resultado_x">X: 0</h3>
+        <h3 id="resultado_o">O: 0</h3>
+        <h3 id="empate">EMPATES: 0</h3>
+        <p> Jogo da velha broxante que eu sei que não vai funcionar</p>
+
+    </div>
+    
+</body>
+
+</html>
